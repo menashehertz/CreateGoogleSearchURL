@@ -54,7 +54,6 @@ struct GoogleSearchBuilder {
     /*
      it should look like this
      https://www.google.com/search?q=pictures%20of%20landscape&num=100&as_qdr=y&newwindow=y
-     
      scheme  host--------- path---query
      */
     
