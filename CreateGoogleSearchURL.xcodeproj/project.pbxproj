@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		46B094011FE22F1C00585ACC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B094001FE22F1C00585ACC /* main.swift */; };
+		46B094081FE3F6A400585ACC /* GoogleSearchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B094071FE3F6A400585ACC /* GoogleSearchBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		46B093FD1FE22F1C00585ACC /* CreateGoogleSearchURL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CreateGoogleSearchURL; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B094001FE22F1C00585ACC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		46B094071FE3F6A400585ACC /* GoogleSearchBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSearchBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				46B094001FE22F1C00585ACC /* main.swift */,
+				46B094071FE3F6A400585ACC /* GoogleSearchBuilder.swift */,
 			);
 			path = CreateGoogleSearchURL;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B094081FE3F6A400585ACC /* GoogleSearchBuilder.swift in Sources */,
 				46B094011FE22F1C00585ACC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

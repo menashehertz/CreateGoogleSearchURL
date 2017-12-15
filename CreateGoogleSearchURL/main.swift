@@ -2,11 +2,14 @@
 //  main.swift
 //  CreateGoogleSearchURL
 //
-//  Created by Steven Hertz on 12/13/17.
-//  Copyright © 2017 Steven Hertz. All rights reserved.
 //
+
+// struct helper to create google search URLs
+
 
 import Foundation
 
-print("Hello, World!")
+// let's run it
+let urlAllDeafault = GoogleSearchBuilder(searchTerm: "pictures of landscape") // all the defaults taking place
 
+let urlValuesSupplied = GoogleSearchBuilder(searchTerm: "pictures of landscape", domain: GoogleSearchBuilder.HostDomains.uk , nbrOfResults: 5) // some values supplied
