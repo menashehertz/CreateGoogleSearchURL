@@ -49,7 +49,7 @@ struct GoogleSearchBuilder {
         case usa = "com", uk = "co.uk", brazil = "co.br", france = "fr"
     }
     
-    var url: URL?
+    private(set) var url: URL?
     
     /*
      it should look like this
